@@ -1,0 +1,20 @@
+header {
+    background-color:#ffffff;
+}
+
+.linkbar {
+    text-align: right;
+    display: inline-block;
+    font-size: 20px;
+}
+.myName {font-size:30px;
+}
+
+#block1 {
+    width:960px;
+    border-style: solid;
+    border-width: 20px;
+    border-color:  #dddddd;
+    float: left;
+
+}
