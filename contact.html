@@ -3,38 +3,42 @@
     <head>
        <meta charset="UTF-8">
         <title>Contact Me</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css"
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
-    <body>
-        <header> 
+    <body background="assets/images/qbkls.png">
+        <header class="header-2"> 
            
-            <h2 class="myName2"> Cory Dunstan</h2>
+            <p class="myName2"> <b>Cory Dunstan</b>
             
             <ul class="nav2">
-                    <li>
+                    <li class= "aboutlink2">
                        <a href="index.html">About</a>
                    </li>
-                   <li>
+                   <li class="portlink2">
                            <a href="portfolio.html">Portfolio</a>
                    </li>
-                   <li>
+                   <li class="contlink2">
                           <a href="contact.html">Contact</a>
                    </li>
+            </ul>
+            </p>
          </header>
 
 
-         <div class="block2">
+         <div class="block-2">
                 
-        <h2 class"header">Contact</h2>
+        <p class="header2"> <b>Contact</b></p>
+            <div class="textbox">
             <p>
-                <label>Name</label>
+                <label>Name</label><br/>
                 <input type= "text"
                         id = "myText"
                         value = "Your Name" />
+        
             </p>
             
             <p>
-                <label>Email</label>
+                <label>Email</label><br/>
                 <input type= "text"
                         id = "emailText"
                         value="example@gmail.com" />
@@ -45,10 +49,11 @@
                 <section>
                  <textarea
                          id= "myTextarea"
-                        rows= "10"
-                        cols= "80">Your text here</textarea>
+                        rows= "15"
+                        cols= "116">Your text here</textarea>
                 </section>
-
+            </div>
+            <button onclick="location.href='mailto:cory353@gmail.com';"type="button">Submit</button>
         </div>
         
         <div class="footer"
