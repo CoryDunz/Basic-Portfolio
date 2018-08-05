@@ -32,7 +32,7 @@ body{
     background-color: #ffffff; 
     list-style-type: none;
     text-align: right;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-right: 10%;
     
 }
@@ -81,6 +81,7 @@ a:visited {
     border-style: solid;
     border-width: 0px 0px 3px 0px;
     border-color: #dddddd;
+    padding-bottom: 6px;
 }
 
 .block1 {
@@ -224,3 +225,117 @@ input{
     border-color: #dddddd;
     color:#777777;
 }
+
+/* portfolio page */
+
+.block-3
+{
+    width: 760px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #dddddd;
+    padding: 20px;
+    background-color: #ffffff;
+    margin: auto;
+    height: 700px;
+    margin-top:1%;  
+}
+
+.portItems{
+    float:left;
+   
+
+}
+
+.portItem-1{
+    clear:both;
+    float:left;
+    border-style:solid;
+    border-width: 20px;
+    border-color:#ffffff;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portItem-2{
+    float:left;
+    border-style:solid;
+    border-width:20px;
+    border-color:#ffffff;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portItem-3{
+    float:left;
+    border-style:solid;
+    border-width:20px;
+    border-color:#ffffff;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portItem-4{
+    float:left;
+    border-style:solid;
+    border-width:20px;
+    border-color:#ffffff;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portItem-5{
+    float:left;
+    border-style:solid;
+    border-width:20px;
+    border-color:#ffffff;
+    color:white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner-1{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px 10px 0px;
+    background-color: #4aaaa5;
+    margin-top:100px;
+}
+
+.banner-2{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px 10px 0px;
+    background-color: #4aaaa5;
+    margin-top:100px;
+    }
+.banner-3{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px 10px 0px;
+    background-color: #4aaaa5;
+    margin-top:100px;
+    }
+.banner-4{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px 10px 0px;
+    background-color: #4aaaa5;
+    margin-top:100px;
+    }
+.banner-5{
+    position: absolute;
+    width: 200px;
+    padding: 15px 0px 10px 0px;
+    background-color: #4aaaa5;
+    margin-top:100px;
+    }
